@@ -2,7 +2,7 @@ module.exports = {
   title: '你好',
   tagline: '欢迎到来',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/blog/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
