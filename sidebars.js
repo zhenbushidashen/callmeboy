@@ -4,7 +4,7 @@ module.exports = {
     'Html':['greeting'],
     'Css': ['greeting'],
     'NodeJS': ['doc1'],
-    'Vue3': ['doc1'],
+    'Vue3': ['vue3/reactive'],
     'React': ['doc1'],
     'Electron': ['doc1'],
     'Typescript': ['doc1'],
