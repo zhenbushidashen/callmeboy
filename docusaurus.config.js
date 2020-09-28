@@ -1,15 +1,15 @@
 module.exports = {
-  title: '你好',
-  tagline: '欢迎到来',
+  title: 'CallMeBoy‘s HOME',
+  tagline: '',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/blog/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'zhenbushidashen', 
+  projectName: 'zhenbushidashen Home', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: '博客',
+      title: '',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -18,19 +18,23 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Study',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'blog', label: '博客', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/zhenbushidashen',
           label: 'GitHub',
           position: 'right',
         },
+         {href: 'https://gitee.com/callmeboy',
+          label: 'Gitee',
+          position: 'right',
+        }
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
       links: [
         {
           title: 'Docs',
@@ -38,10 +42,6 @@ module.exports = {
             {
               label: 'Style Guide',
               to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
             },
           ],
         },
@@ -76,7 +76,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} CallMeBoy loves 01`,
     },
   },
   presets: [

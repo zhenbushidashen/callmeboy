@@ -1,6 +1,22 @@
 module.exports = {
-  someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+  docs: {
+    'JS': ['greeting'],
+    'Html':['greeting'],
+    'Css': ['greeting'],
+    'NodeJS': ['doc1'],
+    'Vue3': ['doc1'],
+    'React': ['doc1'],
+    'Electron': ['doc1'],
+    'Typescript': ['doc1'],
+    'Babel': ['doc1'],
+    'Webpack': ['doc1'],
+    'VsCode': ['doc1'],
+    'Linux': ['doc1'],
+    'Nginx': ['doc1'],
+    'Net': ['doc1'],
+    'LeetCode': ['doc1'],
+    'Ruby': ['doc1'],
+    'Python': ['doc1'],
+    'Golang': ['doc1'],
   },
 };
