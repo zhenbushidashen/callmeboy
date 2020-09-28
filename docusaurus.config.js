@@ -71,7 +71,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/zhenbushidashen',
             },
           ],
         },
@@ -89,13 +89,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/zhenbushidashen/callmeboy/tree/master',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/zhenbushidashen/callmeboy/tree/master',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
