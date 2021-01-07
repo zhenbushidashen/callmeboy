@@ -17,10 +17,11 @@ module.exports = {
       items: [
         {
           to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Study',
+          activeBasePath: 'note',
+          label: '笔记',
           position: 'left',
         },
+        {to: 'css', label: 'css特效', position: 'left'},
         {to: 'blog', label: '博客', position: 'left'},
         {
           href: 'https://github.com/zhenbushidashen',
@@ -37,44 +38,15 @@ module.exports = {
       style: 'light',
       links: [
         {
-          title: 'Docs',
+          title: 'Note',
           items: [
             {
               label: 'Style Guide',
-              to: 'docs/',
+              to: 'note/',
             },
           ],
         },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/zhenbushidashen',
-            },
-          ],
-        },
+
       ],
       copyright: `Copyright © ${new Date().getFullYear()} CallMeBoy loves 01`,
     },
@@ -85,7 +57,7 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'doc1',
+          homePageId: 'js/array-mock',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:

@@ -1,8 +1,13 @@
 module.exports = {
-  docs: {
-    'JS': ['js/array-mock'],
+  note: {
+    'JS': ['js/array-mock', 'js/new-mock','js/bin'],
     'Html':['greeting'],
-    'Css': ['greeting'],
+    'Css': [{
+      '特效': [
+        'css/special-effects/radar'
+      ]
+    }],
+    '性能优化': ['performance-optimization/loop'],
     'NodeJS': ['doc1'],
     'Koa': ['doc1'],
     'Mysql': ['doc1'],
@@ -12,20 +17,34 @@ module.exports = {
         'vue3/ref'
       ]}
     ],
-    'React': ['doc1'],
+    'ECMA': [{
+      'ES2015': ['ecma/es2015/forof']
+    }],
+    'React': ['react/unstated-next'],
+    'Npm': ['npm/patch-package'],
     'Electron': ['doc1'],
-    'Browser': ['doc1'],
-    'Typescript': ['typescript/pick'],
+    'Chrome': ['chrome/devtool'],
+    'Typescript': ['typescript/introduce','typescript/pick', 'typescript/record','typescript/compilation-principle'],
     'Babel': ['doc1'],
-    'Webpack': ['doc1'],
+    'Webpack': ['webpack/tapable'],
     'VsCode': ['doc1'],
     'Linux': ['doc1'],
+    'Shell': ['shell/common-commands'],
     'Nginx': ['doc1'],
     'Net': ['doc1'],
-    'LeetCode': ['leetcode/twosum'],
+    'LeetCode': ['leetcode/twosum',  'leetcode/container-with-most-water'],
     'Ruby': ['doc1'],
     'Python': ['doc1'],
     'Golang': ['doc1'],
-    'C++': ['doc1']
+    'C++': ['doc1'],
+    "数据结构与算法": [
+      'datastruct/stack',
+    ],
+    "词汇": [
+      'words/english'
+    ],
+    "收藏": [
+      "collection/website"
+    ],
   },
 }; 

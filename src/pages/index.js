@@ -5,9 +5,11 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+export const App = () => <h1>MDX OK</h1>
+
 
 const features = [
-
+  App
 ];
 
 function Feature({imageUrl, title, description}) {
@@ -42,7 +44,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/')}>
+              to={useBaseUrl('note/')}>
                点击进入
             </Link>
           </div>

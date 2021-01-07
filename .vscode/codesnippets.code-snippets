@@ -1,0 +1,15 @@
+{
+    "useState": {
+      "scope": "*.md",
+      "prefix": "title",
+      "body": ["---",
+                "id: ${TM_FILENAME/(.*)/${1:/downcase}/}",
+                "title: ",
+                "tags: []",
+                "---"
+        ],
+      "description": "[文章头部]"
+    },
+    
+  }
+  
