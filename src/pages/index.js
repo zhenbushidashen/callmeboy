@@ -44,7 +44,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('note/')}>
+              to={useBaseUrl('blog/')}>
                点击进入
             </Link>
           </div>

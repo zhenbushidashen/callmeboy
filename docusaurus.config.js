@@ -3,7 +3,7 @@ module.exports = {
   tagline: '',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/blog/',
-  onBrokenLinks: 'throw',
+  // onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'zhenbushidashen', 
   projectName: 'zhenbushidashen Home', // Usually your repo name.
@@ -17,7 +17,7 @@ module.exports = {
       items: [
         {
           to: 'docs/',
-          activeBasePath: 'note',
+          activeBasePath: 'blog',
           label: '笔记',
           position: 'left',
         },
@@ -42,7 +42,7 @@ module.exports = {
           items: [
             {
               label: 'Style Guide',
-              to: 'note/',
+              to: 'blog/',
             },
           ],
         },

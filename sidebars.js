@@ -1,5 +1,5 @@
 module.exports = {
-  note: {
+  blog: {
     'JS': ['js/array-mock', 'js/new-mock','js/bin'],
     'Html':['greeting'],
     'Css': [{
